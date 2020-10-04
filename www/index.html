@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Liste Joiner</title>
+	<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+	<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+	<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<script src="assets/js/config.js"></script>
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/popper.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<script src="assets/js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Home</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item">
+						<a class="nav-link connecter" href="signin.html">Se Connecter </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link deconnecter"  id="btScaner">scanner</a>
+					</li>
+
+
+					<li class="nav-item">
+						<a class="nav-link deconnecter" href="#" id="logOut">Se deconnecter</a>
+					</li>
+
+
+			</div>
+		</nav>
+	</header>
+	<div id="loader">
+		<div class='body'>
+			<span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+			<div class='base'>
+				<span></span>
+				<div class='face'></div>
+			</div>
+		</div>
+		<div class='longfazers'>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<h1>Partit chercher la liste !</h1>
+	</div>
+
+	<header>
+		<nav></nav>
+	</header>
+	<main>
+		<div id="myDIV" class="header">
+			<h2>My To Do List</h2>
+			<input type="text" id="myInput" placeholder="Title...">
+			<span id="add" class="addBtn">Add</span>
+		</div>
+
+		<ul id="myUL">
+
+		</ul>
+	</main>
+	<script type="text/javascript" src="cordova.js"></script>
+</body>
+
+</html>
